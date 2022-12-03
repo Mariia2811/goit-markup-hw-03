@@ -1,0 +1,16 @@
+:root{
+    --color-primary: #212121;
+    --color-secondary: #757575;
+    --color-accent: #2196F3;
+    --color-background: #F5F5F5;
+    --white-accent: #FFFFFF;
+    --secondary-background: #2F303A;
+}
+
+body{
+    color: var(--color-primary);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600px;
+    ba
+}
