@@ -88,10 +88,6 @@ img {
     color: var(--black-logo)
 }
 
-.logo-accent {
-    color: var(--color-accent);
-}
-
 .logo-footer {
     color: var(--white-accent);
     margin-bottom: 28px;
@@ -137,16 +133,12 @@ img {
     color: var(--color-primary);
 }
 
-.сurent {
-    color: var(--color-accent);
-}
-
 .contact {
     color: var(--color-secondary);
 }
 
 .link:hover,
-.link:focus {
+.link:focus, .сurent, .logo-accent {
     color: var(--color-accent);
 }
 
@@ -165,6 +157,7 @@ img {
     text-transform: uppercase;
     letter-spacing: 0.06em;
     margin: 0 auto 30px;
+    width: 696px;
 }
 
 .hero-button {
@@ -312,12 +305,6 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-}
-
-.portfolio-item{
-    /* border: 1px solid #EEEEEE;
-    flex-basis: calc((100%-66px)/3);
-    max-width: 370px; */
 }
 
 .footer {
